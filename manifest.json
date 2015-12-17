@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "CDA Document Renderer",
+  "description": "This extension takes a CDA document from the active window and generates a HTML rendered version of it",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "cda-icon.png",
+    "default_popup": "popup.html",
+	"default_title": "Click for CDA"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
